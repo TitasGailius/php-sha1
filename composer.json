@@ -1,0 +1,29 @@
+{
+    "name": "titasgailius/PHPSha1",
+    "description": "SHA1 implementation in pure PHP",
+    "type": "library",
+    "keywords": ["sha1", "php"],
+    "authors": [
+        {
+            "name": "Titas Gailius",
+            "email": "titas.gailius@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHPSha1\\": "src/PHPSha1"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "phpunit": "./vendor/bin/phpunit;"
+    }
+}

@@ -1,6 +1,6 @@
 # PHPSha1
 
-## This is an implementation of `SHA1` encryption written purely in `PHP`
+## This is an implementation of `SHA1` encryption written purely in `PHP` for demonstration purposes only.
 
 ### Example
 ```php
